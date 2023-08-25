@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #767474;
+}
+.nav{
+    display: flex;
+    background-color:#333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    gap: 24px;
+    width: 100%;
+}
+
+.nav li{
+    list-style: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.main {
+    padding-top: 20px;
+    
+}
+.point{
+    padding-left: 20px;
+}
+
+.container .img:hover{
+    transform:scale(0.9);
+    cursor: pointer;
+}
+
+a{
+    cursor: pointer;
+}
